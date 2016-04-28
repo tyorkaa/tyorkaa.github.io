@@ -1,0 +1,72 @@
+body {
+  background: #fefefe;
+  padding: 0px;
+  margin: 0px; }
+
+.feedback {
+  padding: 20px;
+  position: absolute;
+  width: 300px;
+  left: 50%;
+  margin: 10px;
+  margin-left: -170px;
+  background: white;
+  border-radius: 10px; }
+  .feedback input, .feedback textarea {
+    padding: 5px;
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+    width: 290px;
+    border-radius: 3px; }
+  .feedback input[type="submit"] {
+    margin-top: 2px;
+    width: auto;
+    cursor: pointer; }
+  .feedback textarea {
+    height: 100px; }
+  .feedback .status {
+    padding: 5px 15px;
+    color: gray;
+    font-family: monospace; }
+  .feedback .close {
+    float: right;
+    cursor: pointer;
+    color: #909090; }
+
+.hidden {
+  display: none; }
+
+.layout {
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  margin-left: -250px;
+  width: 500px;
+  height: 599px;
+  background: url(../pics/dummy_500.jpg) no-repeat; }
+  .layout > * {
+    position: absolute;
+    z-index: 1; }
+  .layout .email {
+    width: 34%;
+    height: 7%;
+    left: 63%;
+    top: 74%;
+    cursor: pointer; }
+  .layout .vk {
+    width: 21%;
+    height: 7%;
+    left: 60%;
+    top: 82%; }
+  .layout .insta {
+    width: 45%;
+    height: 8%;
+    left: 55%;
+    top: 90%; }
+
+@media only screen and (max-device-width: 360px) {
+  .layout {
+    margin-left: -150px;
+    width: 300px;
+    height: 359px;
+    background-image: url(../pics/dummy_300.jpg); } }
