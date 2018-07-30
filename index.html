@@ -135,4 +135,15 @@
 
 
   window.addEventListener('scroll', () => resizeHeader());
+  var query = window.location.search.substring(1).split('&');
+  query = query.reduce(function(result, row){
+    var parts = row.split('=');
+    result[parts[0]] = parts[1];
+    return result;
+  }, {});
+
+  if(query.col){
+    document.querySelector('.gallery').style.columnCount = query.col*1;
+  }
+
 </script>
