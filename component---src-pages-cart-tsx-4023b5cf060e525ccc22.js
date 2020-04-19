@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"6klD":function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),c=t("VXBa"),r=t("CxFS"),u=(t("UGIB"),r.with("cart")),l=function(){return a.createElement("div",{className:u()},"Ваша корзина")};n.default=function(){return a.createElement(c.a,null,a.createElement(l,null))}},UGIB:function(e,n,t){}}]);
+//# sourceMappingURL=component---src-pages-cart-tsx-4023b5cf060e525ccc22.js.map
