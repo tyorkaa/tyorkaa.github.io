@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{FhjM:function(n,e,t){"use strict";t.r(e);var r=t("q1tI");e.default=function(n){return function(n){if(null==n)throw new TypeError("Cannot destructure undefined")}(n),r.createElement("div",null,"Ваш заказ принят. Спасибо")}}}]);
+//# sourceMappingURL=component---src-pages-success-tsx-43a744e48b1fa8a0ec91.js.map
